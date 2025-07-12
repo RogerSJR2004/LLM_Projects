@@ -1,72 +1,87 @@
-# 🔮 AI Projects Hub
+# 🤖 LLMs & AI Agents Portfolio
 
-Welcome to **AI Projects Hub** — a curated collection of projects exploring the power of **Large Language Models (LLMs)**, **AI Agents**, and **Generative AI** using cutting-edge tools like **LangChain**, **LangGraph**, and more.
+Welcome to my **LLMs and AI Agents** repository — a consolidated showcase of applied research, experiments, and production-grade prototypes using state-of-the-art **Large Language Models**, **LangChain**, **LangGraph**, and **Autonomous AI Agents**.
 
-This repository serves as a launchpad for innovative applications built around intelligent agents, autonomous workflows, and generative systems, showcasing real-world use cases and creative experiments in AI.
-
----
-
-## 🚀 Project Categories
-
-### 🧠 LLMs with LangChain & LangGraph
-Build intelligent applications using composable and modular LLM frameworks.
-
-- **LangChain-powered Chatbot**  
-  A multi-tool conversational AI with retrieval-augmented generation (RAG) and memory support.
-
-- **LangGraph Workflow Orchestrator**  
-  Demonstrates how to create complex stateful, multi-agent systems with LangGraph.
-
-- **Custom Toolchains with Agents**  
-  Tool-using agents integrated into workflows for automation tasks.
+This work is part of my journey as an AI & Data Science engineer, where I explore how intelligent systems can solve real-world problems across domains like finance, productivity, automation, and knowledge management.
 
 ---
 
-### 🤖 AI Agents
-Projects focused on creating autonomous or semi-autonomous AI systems capable of decision-making and task execution.
+## 🔍 Overview
 
-- **Multi-Agent Collaboration System**  
-  A system of cooperative agents that communicate to complete tasks.
+This repository includes projects built around:
 
-- **AI Research Assistant**  
-  An LLM-powered assistant that can search, summarize, and ideate on technical papers and topics.
+- ✅ **LangChain** for building modular LLM pipelines
+- ✅ **LangGraph** for multi-agent workflows and stateful reasoning
+- ✅ **Autonomous Agents** using tools, memory, and planning strategies
+- ✅ **Generative AI** applications for text, code, and data generation
 
-- **Financial Analyst Agent**  
-  A goal-driven agent using AI to process financial data and generate investment insights.
-
----
-
-## 🛠️ Tech Stack
-
-- **LLM Frameworks:** LangChain, LangGraph, OpenAI, Hugging Face
-- **Agents & Tools:** LangChain Agents, Custom Tools, ReAct, AutoGPT-style logic
-- **Vector Stores:** FAISS, Chroma
-- **Others:** Streamlit, FastAPI, Python, JSON, YAML
+Each project emphasizes **clarity, reproducibility**, and **real-world applicability**.
 
 ---
 
-## 📚 Learning Goals
+## 📁 Project Structure
 
-This repo is part of my personal journey in AI and entrepreneurship, with goals to:
+### 🧠 LangChain Projects
+> Modular LLM pipelines using chains, memory, tools, and RAG.
 
-- Build intelligent, autonomous systems
-- Solve real-world problems through AI workflows
-- Explore investing and financial tech with AI agents
-- Create reproducible, open-source solutions
+- `chatbot-langchain/`: Conversational AI with tool usage and memory.
+- `rag-qa-system/`: Retrieval-Augmented Generation pipeline with custom embeddings.
+- `agentic-task-executor/`: LangChain agent with dynamic tool selection and feedback loops.
+
+### 🔁 LangGraph Projects
+> Building stateful, multi-agent systems with workflow graphs.
+
+- `multi-agent-langgraph/`: Agents that collaborate over structured tasks.
+- `document-processing-pipeline/`: LLM-driven workflow for multi-step document analysis and summarization.
+
+### 🤖 Autonomous AI Agents
+> Task-driven and tool-using agents for research and real-world automation.
+
+- `financial-agent/`: A goal-driven AI agent for analyzing and summarizing market data.
+- `research-copilot/`: AutoGPT-style assistant for paper summarization and ideation.
+- `task-decomposer-agent/`: Agent that breaks down high-level tasks and executes them with sub-agents.
+
+### 🎨 GenAI Experiments (optional section)
+> LLMs for creative or productivity-focused outputs.
+
+- `text-gen-playground/`: Prompt engineering experiments and comparison tools.
+- `code-gen-agent/`: Code generation and explanation using LLM APIs.
 
 ---
 
-## 💡 Contribution & Collaboration
+## ⚙️ Technologies Used
 
-Got an idea for improvement or a new agent to build? Feel free to:
-
-- Fork the repo
-- Open a pull request
-- Submit an issue or feature request
-
-Let’s build together 🚀
+| Category        | Tools / Frameworks                                  |
+|----------------|------------------------------------------------------|
+| LLM Frameworks | LangChain, LangGraph, OpenAI, Hugging Face Transformers |
+| Vector DBs     | FAISS, Chroma                                        |
+| Agent Architectures | ReAct, Toolformer-style planning, AutoGPT-inspired loops |
+| Languages      | Python, Markdown, YAML                               |
+| APIs & UI      | OpenAI API, FastAPI, Streamlit (for demos)           |
 
 ---
 
-## 🙌 Connect with Me
-🔗 https://www.linkedin.com/in/rogersamuel17/
+## 🧭 Purpose & Goals
+
+This repository serves three core objectives:
+
+1. **R&D Sandbox** – Explore architectures and agent strategies for LLMs.
+2. **Real-World Use Cases** – Automate tasks in domains like finance, research, and personal productivity.
+3. **Open-Source Foundation** – Provide reusable, well-documented components for future startups or AI tools.
+
+---
+
+## 🗂️ Getting Started
+
+> To run any project, refer to its individual README for setup and usage instructions. Most projects follow a standard pattern:
+
+```bash
+# Clone the repo
+git clone https://github.com/RogerSJR2004/LLM_Projects.git
+cd llm-ai-agents/project-name
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the project
+python main.py
