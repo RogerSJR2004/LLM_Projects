@@ -1,84 +1,79 @@
-# 🤖 LLMs & AI Agents Portfolio
+📚 RAG & LLMs Portfolio
+Welcome to my RAG (Retrieval-Augmented Generation) and LLMs repository — a consolidated showcase of applied research, prototypes, and production-grade experiments using state-of-the-art Large Language Models, LangChain, and LangGraph.
 
-Welcome to my **LLMs and AI Agents** repository — a consolidated showcase of applied research, experiments, and production-grade prototypes using state-of-the-art **Large Language Models**, **LangChain**, **LangGraph**, and **Autonomous AI Agents**.
+This work is part of my journey as an AI & Data Science engineer, where I explore how RAG-powered systems can solve real-world problems in domains like finance, productivity, automation, and knowledge workflows.
 
-This work is part of my journey as an AI & Data Science engineer, where I explore how intelligent systems can solve real-world problems across domains like finance, productivity, automation, and knowledge management.
-
----
-
-## 🔍 Overview
-
+🔍 Overview
 This repository includes projects built around:
 
-- ✅ **LangChain** for building modular LLM pipelines
-- ✅ **LangGraph** for multi-agent workflows and stateful reasoning
-- ✅ **Autonomous Agents** using tools, memory, and planning strategies
-- ✅ **Generative AI** applications for text, code, and data generation
+✅ LangChain for building modular RAG pipelines
 
-Each project emphasizes **clarity, reproducibility**, and **real-world applicability**.
+✅ LangGraph for orchestrating multi-step retrieval and generation workflows
 
----
+✅ RAG Frameworks for scalable question-answering and intelligent search
 
-## 📁 Project Structure
+✅ Generative AI applications for text, code, and domain-specific insights
 
-### 🧠 LangChain Projects
-> Modular LLM pipelines using chains, memory, tools, and RAG.
+Each project emphasizes clarity, reproducibility, and real-world impact.
 
-- `chatbot-langchain/`: Conversational AI with tool usage and memory.
-- `rag-qa-system/`: Retrieval-Augmented Generation pipeline with custom embeddings.
-- `agentic-task-executor/`: LangChain agent with dynamic tool selection and feedback loops.
+📁 Project Structure
+📖 RAG Projects (LangChain-based)
+Retrieval-Augmented Generation pipelines with custom vector DBs and modular logic.
 
-### 🔁 LangGraph Projects
-> Building stateful, multi-agent systems with workflow graphs.
+chatbot-langchain/: Conversational AI enhanced with document retrieval and memory.
 
-- `multi-agent-langgraph/`: Agents that collaborate over structured tasks.
-- `document-processing-pipeline/`: LLM-driven workflow for multi-step document analysis and summarization.
+rag-qa-system/: End-to-end RAG pipeline for scalable, intelligent Q&A.
 
-### 🤖 Autonomous AI Agents
-> Task-driven and tool-using agents for research and real-world automation.
+agentic-task-executor/: Hybrid pipeline with retrieval + tool-using agents.
 
-- `financial-agent/`: A goal-driven AI agent for analyzing and summarizing market data.
-- `research-copilot/`: AutoGPT-style assistant for paper summarization and ideation.
-- `task-decomposer-agent/`: Agent that breaks down high-level tasks and executes them with sub-agents.
+🔁 LangGraph Workflows
+Multi-step reasoning and stateful workflows for advanced document understanding.
 
-### 🎨 GenAI Experiments (optional section)
-> LLMs for creative or productivity-focused outputs.
+multi-agent-langgraph/: Agents collaborate through LangGraph-based task flows.
 
-- `text-gen-playground/`: Prompt engineering experiments and comparison tools.
-- `code-gen-agent/`: Code generation and explanation using LLM APIs.
+document-processing-pipeline/: Chunked document analysis, summarization, and context-aware Q&A.
 
----
+🧠 Smart Automation Agents
+(Optional) RAG-enhanced autonomous agents that combine tools, memory, and search.
 
-## ⚙️ Technologies Used
+financial-agent/: Market research powered by LLMs and retrieval over financial data.
 
-| Category        | Tools / Frameworks                                  |
-|----------------|------------------------------------------------------|
-| LLM Frameworks | LangChain, LangGraph, OpenAI, Hugging Face Transformers |
-| Vector DBs     | FAISS, Chroma                                        |
-| Agent Architectures | ReAct, Toolformer-style planning, AutoGPT-inspired loops |
-| Languages      | Python, Markdown, YAML                               |
-| APIs & UI      | OpenAI API, FastAPI, Streamlit (for demos)           |
+research-copilot/: AutoGPT-style paper summarizer using hybrid RAG workflows.
 
----
+task-decomposer-agent/: Modular agent that decomposes tasks with retrieval + generation logic.
 
-## 🧭 Purpose & Goals
+🎨 GenAI Experiments (Optional)
+Creative use cases leveraging RAG and LLMs.
 
-This repository serves three core objectives:
+text-gen-playground/: Prompt tuning and output comparison with/without retrieval.
 
-1. **R&D Sandbox** – Explore architectures and agent strategies for LLMs.
-2. **Real-World Use Cases** – Automate tasks in domains like finance, research, and personal productivity.
-3. **Open-Source Foundation** – Provide reusable, well-documented components for future startups or AI tools.
+code-gen-agent/: Code explanation and augmentation using RAG techniques.
 
----
+⚙️ Technologies Used
+Category	Tools / Frameworks
+RAG Stack	LangChain, FAISS, Chroma, Hugging Face Transformers
+LLM Orchestration	LangGraph, ReAct, AutoGPT loops
+Languages	Python, Markdown, YAML
+APIs & UI	OpenAI API, Streamlit, FastAPI
 
-## 🗂️ Getting Started
+🧭 Purpose & Goals
+This repository aims to:
 
-> To run any project, refer to its individual README for setup and usage instructions. Most projects follow a standard pattern:
+Demonstrate RAG Patterns – Show how retrieval enhances LLM performance.
 
-```bash
+Build Real-World Solutions – Automate intelligent Q&A, document understanding, and smart agents.
+
+Create a Modular Toolkit – Open-source, reusable components for future AI startups and RAG pipelines.
+
+🗂️ Getting Started
+Each project has its own README with setup instructions. Typical workflow:
+
+bash
+Copy
+Edit
 # Clone the repo
 git clone https://github.com/RogerSJR2004/LLM_Projects.git
-cd llm-ai-agents/project-name
+cd llm-ai-projects/project-name
 
 # Install dependencies
 pip install -r requirements.txt
