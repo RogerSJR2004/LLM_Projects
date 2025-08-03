@@ -42,8 +42,6 @@ research-copilot/: AutoGPT-style paper summarizer using hybrid RAG workflows.
 
 task-decomposer-agent/: Modular agent that decomposes tasks with retrieval + generation logic.
 
-🎨 GenAI Experiments (Optional)
-Creative use cases leveraging RAG and LLMs.
 
 text-gen-playground/: Prompt tuning and output comparison with/without retrieval.
 
