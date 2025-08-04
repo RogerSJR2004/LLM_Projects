@@ -1,0 +1,30 @@
+langchain
+langchain_community
+langchain-groq
+langchain-google-genai
+python-dotenv
+streamlit
+unstructured
+chromadb
+sentence-transformers
+PyPDF2
+langchain_experimental
+sentence-transformers
+langchain_chroma
+langchainhub
+rapidocr-onnxruntime
+tiktoken
+
+
+# langchain
+# langchain_community
+# langchain-groq
+# python-dotenv
+# streamlit
+# langchain_experimental
+# sentence-transformers
+# langchain_chroma
+# langchainhub
+# unstructured
+# langchain_chroma
+# langchain_openai
