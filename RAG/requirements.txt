@@ -1,19 +1,67 @@
+streamlit
 langchain
-langchain_community
+langchain-community
 langchain-groq
 langchain-google-genai
+pypdf
 python-dotenv
-streamlit
-unstructured
 chromadb
-sentence-transformers
-PyPDF2
-langchain_experimental
-sentence-transformers
-langchain_chroma
-langchainhub
-rapidocr-onnxruntime
-tiktoken
+spacy
+huggingface-hub
+
+
+# # === Finapp === #
+# # Core Streamlit and Data Processing
+# streamlit==1.29.0
+# pandas==2.1.4
+# numpy==1.24.3
+
+# # Financial Data API
+# yfinance==0.2.28
+
+# # Data Visualization
+# plotly==5.17.0
+
+# # Web Scraping and Requests
+# requests==2.31.0
+# beautifulsoup4==4.12.2
+# lxml==4.9.3
+
+# # Groq AI API
+# groq==0.4.1
+
+# # Text Processing and Sentiment Analysis
+# textblob==0.17.1
+
+# # Date and Time utilities
+# python-dateutil==2.8.2
+
+# # Additional utilities for file handling
+# openpyxl==3.1.2
+
+# # Environment variables (optional)
+# python-dotenv==1.0.0
+
+
+
+
+
+# langchain
+# langchain_community
+# langchain-groq
+# langchain-google-genai
+# python-dotenv
+# streamlit
+# unstructured
+# chromadb
+# sentence-transformers
+# PyPDF2
+# langchain_experimental
+# sentence-transformers
+# langchain_chroma
+# langchainhub
+# rapidocr-onnxruntime
+# tiktoken
 
 
 # langchain
